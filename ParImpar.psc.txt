@@ -1,0 +1,10 @@
+Algoritmo ParImpar
+	Escribir "Ingrese un numero: "	
+	Leer num
+	r = num mod 2
+	Si r = 0 Entonces
+		Escribir "Este numero es PAR"
+	SiNo
+		Escribir "Este numero es IMPAR"
+	FinSi
+FinAlgoritmo

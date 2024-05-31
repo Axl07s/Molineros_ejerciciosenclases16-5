@@ -1,0 +1,12 @@
+Algoritmo Genero
+	Escribir "Escriba su nombre: "
+	Leer nombre
+	Escribir "Ingresa tu genero: "
+	Leer sexo
+	Si sexo = "masculino" o sexo="MASCULINO" Entonces
+		Escribir "Hola " nombre ", te puedes matricular en Fútbol y Basquet"
+	SiNo
+		Escribir "Hola " nombre ", te puedes matricular en Volei y Ballet" 
+	Fin Si
+	
+FinAlgoritmo

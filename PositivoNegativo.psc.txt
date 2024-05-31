@@ -1,0 +1,13 @@
+Algoritmo PositivoNegativo
+	Escribir "Ingrese un numero positivo, negativo o 0: "
+	Leer num
+	Si num > 0 Entonces
+		Escribir "Este numero es POSITIVO"
+	SiNo 
+		Si num < 0 Entonces
+		Escribir "Este numero es NEGATIVO"
+		SiNo
+			Escribir "Este numero es 0 ´neutro´"
+		FinSi
+	FinSi
+FinAlgoritmo
